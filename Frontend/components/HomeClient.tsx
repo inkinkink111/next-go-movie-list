@@ -40,6 +40,7 @@ const HomeClient = () => {
         }
       } catch (err: unknown) {
         setErr("Failed to fetch movies");
+        console.log(err);
       } finally {
         setLoading(false);
       }

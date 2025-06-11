@@ -15,8 +15,8 @@ export default function Home() {
             priority={true}
           ></Image>
           <h1>
-            Find <span className="text-gradient">Movies</span> You'll Love with
-            Ease
+            Find <span className="text-gradient">Movies</span> You&apos;ll Love
+            with Ease
           </h1>
         </header>
         <HomeClient />
